@@ -1,0 +1,8 @@
+const btn = document.getElementById("btn");
+const year = document.getElementById("year");
+
+year.textContent = new Date().getFullYear();
+
+btn.addEventListener("click", () => {
+  alert("It works! 🎉");
+});
